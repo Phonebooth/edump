@@ -11,7 +11,12 @@ This library includes code for parsing different kinds of crashdump segment, can
 ## Build
 
     $ rebar3 compile
+    
+## Build escript (creates _build/default/bin/edump)
 
+    $ rebar3 escriptize
+    
+ 
 ## Use
 
 ### Reading a crashdump
